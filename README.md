@@ -2,6 +2,19 @@
 # Description
 This project was build just to demonstrate how the generation of specific override to apply only specific patches to the instances and this files should ne consumed by Systems Manager AWS-RunPatchBaseline automation Document. 
 More info [here](https://docs.aws.amazon.com/systems-manager/latest/userguide/override-list-scenario.html) on the usage and yaml structure.
+
+## Basic Usage 
+
+To use it when already deployed, use files in test_reports/ folder
+
+```bash
+aws s3 cp test_reports/test.csv s3://csv2yaml-s3bucket-12qbjm6ozou88/approved/sample.csv
+```
+or via gui, just upload a .csv file to the **approved/** folder and a few minutes later **output/{instance-id}.yaml** should be created.
+
+## SAM Instructions
+
+
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
 - transform - Code for the application's Lambda function.
@@ -92,14 +105,7 @@ csv-to-yaml$ python -m pytest tests/unit -v
 csv-to-yaml$ AWS_SAM_STACK_NAME=<stack-name> python -m pytest tests/integration -v
 ```
 
-## Basic Usage 
 
-To use it when already deployed, use files in test_reports/ folder
-
-```bash
-aws s3 cp test_reports/test.csv s3://csv2yaml-s3bucket-12qbjm6ozou88/approved/sample.csv
-```
-or via gui, just upload a .csv file to the **approved/** folder and a few minutes later **output/{instance-id}.yaml** should be created.
 
 ## Cleanup
 
