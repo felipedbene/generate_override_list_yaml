@@ -90,7 +90,9 @@ csv-to-yaml$ python -m pytest tests/unit -v
 csv-to-yaml$ AWS_SAM_STACK_NAME=<stack-name> python -m pytest tests/integration -v
 ```
 
-## To use it when already deployed, use files in test_reports/ folder
+## Basic Usage 
+
+To use it when already deployed, use files in test_reports/ folder
 
 ```bash
 aws s3 cp test_reports/test.csv s3://csv2yaml-s3bucket-12qbjm6ozou88/approved/sample.csv
