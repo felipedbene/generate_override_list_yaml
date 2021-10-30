@@ -1,5 +1,7 @@
 # csv-to-yaml
-
+# Description
+This project was build just to demonstrate how the generation of specific override to apply only specific patches to the instances and this files should ne consumed by Systems Manager AWS-RunPatchBaseline automation Document. 
+More info [here](https://docs.aws.amazon.com/systems-manager/latest/userguide/override-list-scenario.html) on the usage and yaml structure.
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
 - transform - Code for the application's Lambda function.
@@ -112,4 +114,3 @@ aws cloudformation delete-stack --stack-name csv-to-yaml
 See the [AWS SAM developer guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) for an introduction to SAM specification, the SAM CLI, and serverless application concepts.
 
 Next, you can use AWS Serverless Application Repository to deploy ready to use Apps that go beyond hello world samples and learn how authors developed their applications: [AWS Serverless Application Repository main page](https://aws.amazon.com/serverless/serverlessrepo/)
-# generate_override_list_yaml
