@@ -45,7 +45,7 @@ The S3Bucket in the output is the one expecting the approved patches files. That
 
 ## Basic Usage 
 
-Make sure Resource Invenory Data Sync is set up, run the query for the missing patches, example can be found (here)[athena_query/sample_query.sql]. 
+Make sure Resource Invenory Data Sync is set up, run the query for the missing patches, example can be found [here](athena_query/sample_query.sql). 
 If you not using this example query make sure the columns match as it's hardcoded in the lambda and it expects a certain format, be free contribute and improve it :-D.
 
 
