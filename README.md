@@ -11,7 +11,7 @@ More info [here](https://docs.aws.amazon.com/systems-manager/latest/userguide/ov
 
 Deploy this repo as a Standard SAM Application, steps are:
 
-- Spin up a cloud9 instance. Instructions (here)[https://docs.aws.amazon.com/cloud9/latest/user-guide/create-environment-main.html]
+- Spin up a cloud9 instance. Instructions [here](https://docs.aws.amazon.com/cloud9/latest/user-guide/create-environment-main.html)
 - Clone this repository using Cloud9's integrated shell
 
 ```bash
