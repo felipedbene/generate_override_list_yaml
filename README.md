@@ -63,4 +63,4 @@ or via gui, just upload a .csv file to the **approved/** folder and a few minute
 ## Important disclaimer
 
 This is meant to ilustrate how impleting two lambdas a manual process can be automated with little effort, **USE IT AS AN INSPIRATION** and not directly to production.
-There's no error control for instance and the CSV format is static and can/has to be improved. Nor this has been extensively tested.
+There's no error control for instance and the CSV format is static and can/has to be improved. Nor this has been extensively tested, be mindful of that.
