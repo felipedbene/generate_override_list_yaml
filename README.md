@@ -13,13 +13,14 @@ Deploy this repo as a Standard SAM Application, steps are:
 
 - Spin up a cloud9 instance. Instructions [here](https://docs.aws.amazon.com/cloud9/latest/user-guide/create-environment-main.html)
 - Clone this repository using Cloud9's integrated shell
+- Copy and paste the commands below.The interactive shell will guide you during the deployment.
 
 ```bash
 git clone https://github.com/felipedbene/generate_override_list_yaml.git
 cd Event-SAM/
 sam deploy --guided
 ```
-The interactive shell will guide the deployment and in the end, you should get an output like this :
+Once the deployment is sucessful, you should get an output similar to this one :
  
 ```
 CloudFormation outputs from deployed stack
