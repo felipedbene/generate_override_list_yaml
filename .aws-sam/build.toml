@@ -7,6 +7,6 @@ runtime = "python3.7"
 source_md5 = ""
 architecture = "x86_64"
 packagetype = "Zip"
-functions = ["TransformFunction"]
+functions = ["TransformFunction", "PatcherFunction"]
 
 [layer_build_definitions]
