@@ -20,8 +20,8 @@ cd Event-SAM/
 sam deploy --guided
 ```
 The interactive shell will guide the deployment and in the end, you should get an output like this :
-
-
+ 
+```
 CloudFormation outputs from deployed stack
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Outputs                                                                                                                                                                                        
@@ -37,6 +37,7 @@ Value               csv2yaml-TransformFunction-example
 Key                 PatcherFunction                                                                                                                                                            
 Description         PatcherFunction ARN.                                                                                                                                                       
 Value               csv2yaml-PatcherFunction-example  
+```
 
 The S3Bucket in the output is the one expecting the approved patches files. That's it.
 
