@@ -1,4 +1,3 @@
-# csv-to-yaml
 # Description
 This project was build just to demonstrate how the generation of specific override to apply only specific patches to the instances and this files should ne consumed by Systems Manager AWS-RunPatchBaseline automation Document. 
 More info [here](https://docs.aws.amazon.com/systems-manager/latest/userguide/override-list-scenario.html) on the usage and yaml structure.
@@ -60,6 +59,10 @@ aws s3 cp test_reports/test.csv s3://csv2yaml-s3bucket-12qbjm6ozou88/approved/sa
 or via gui, just upload a .csv file to the **approved/** folder and a few minutes later **output/{instance-id}.yaml** should be created and the patcher lambda should be triggered.
 
 *Note: The instance profile must have IAM Access to this bucket, so it can download de baseline, otherwise patching will fail.
+
+## Clean up
+
+Just run a sam delete and confirm the deletions and all resources will be removed
 
 ## Important disclaimer
 
