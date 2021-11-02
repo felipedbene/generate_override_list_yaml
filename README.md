@@ -62,7 +62,12 @@ or via gui, just upload a .csv file to the **approved/** folder and a few minute
 
 ## Clean up
 
-Just run a sam delete and confirm the deletions and all resources will be removed
+Just run a sam delete and confirm the deletions and all resources will be removed.
+
+
+```bash
+sam delete
+```
 
 ## Important disclaimer
 
